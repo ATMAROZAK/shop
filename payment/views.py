@@ -2,12 +2,12 @@ from django.shortcuts import render, get_object_or_404
 from decimal import Decimal
 from django.conf import settings
 from django.urls import reverse
-from paypal.standard.forms import PayPalPaymentsForm
+
 from orders.models import Order
 from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
-def PaymentProcess(request):
+"""def PaymentProcess(request):
     order_id = request.session.get('order_id')
     order = get_object_or_404(Order, id=order_id)
     host = request.get_host()
@@ -35,4 +35,4 @@ def PaymentDone(request):
 
 @csrf_exempt
 def PaymentCanceled(request):
-    return render(request, 'payment/canceled.html')
+    return render(request, 'payment/canceled.html')"""

@@ -11,8 +11,8 @@ urlpatterns = [
     path('^i18n/', include('django.conf.urls.i18n')),
     path('cart/', include(('cart.urls', 'cart'), namespace='cart')),
     path('order/', include(('orders.urls', 'orders'), namespace='orders')),
-    path('paypal/', include('paypal.standard.ipn.urls')),
-    path('payment/', include(('payment.urls', 'payment'), namespace='payment')),
+
+    #path('payment/', include(('payment.urls', 'payment'), namespace='payment')),
     path('', include(('product_app.urls', 'product_app'), namespace='product_app')),
 
 
