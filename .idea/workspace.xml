@@ -9,7 +9,7 @@
       <change beforePath="$PROJECT_DIR$/../restproject/settings.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../restproject/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../restproject/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Procfile" value="26" />
+          <entry key="Procfile" value="34" />
           <entry key="html" value="522" />
           <entry key="po" value="16" />
           <entry key="py" value="3692" />
@@ -41,7 +41,7 @@
         <counts>
           <entry key="HTML" value="522" />
           <entry key="Locale" value="16" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Python" value="3692" />
         </counts>
       </usages-collector>
@@ -68,7 +68,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payment/apps.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -148,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="15">
+              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -214,7 +214,6 @@
         <option value="$PROJECT_DIR$/payment/__init__.py" />
         <option value="$PROJECT_DIR$/shop_project/celery.py" />
         <option value="$PROJECT_DIR$/orders/tasks.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/shop_project/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/payment/views.py" />
@@ -222,6 +221,7 @@
         <option value="$PROJECT_DIR$/shop_project/urls.py" />
         <option value="$PROJECT_DIR$/payment/apps.py" />
         <option value="$PROJECT_DIR$/payment/signals.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -688,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop_project/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -759,6 +752,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
