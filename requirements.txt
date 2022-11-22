@@ -13,7 +13,7 @@ django-payeer==0.4
 flower==0.9.2
 idna==2.7
 kombu==4.2.1
-Pillow==5.2.0
+Pillow==9.3.0
 psycopg2==2.7.5
 pytz==2018.5
 requests==2.19.1
